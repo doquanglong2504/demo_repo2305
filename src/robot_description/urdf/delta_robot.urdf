@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by
+Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
@@ -26,7 +27,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/base_link.STL" />
+          filename="package://robot_description/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +41,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/base_link.STL" />
+          filename="package://robot_description/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +67,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/upper_arm_link_1.STL" />
+          filename="package://robot_description/meshes/upper_arm_link_1.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +81,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/upper_arm_link_1.STL" />
+          filename="package://robot_description/meshes/upper_arm_link_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -97,10 +98,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-1.57"
+      upper="1.57"
+      effort="5.0"
+      velocity="1.0" />
   </joint>
   <link
     name="lower_arm_link_1">
@@ -124,7 +125,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/lower_arm_link_1.STL" />
+          filename="package://robot_description/meshes/lower_arm_link_1.STL" />
       </geometry>
       <material
         name="">
@@ -138,7 +139,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/lower_arm_link_1.STL" />
+          filename="package://robot_description/meshes/lower_arm_link_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -155,10 +156,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-1.57"
+      upper="1.57"
+      effort="5.0"
+      velocity="1.0" />
   </joint>
   <link
     name="end_effector">
@@ -182,7 +183,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/end_effector.STL" />
+          filename="package://robot_description/meshes/end_effector.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +197,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/end_effector.STL" />
+          filename="package://robot_description/meshes/end_effector.STL" />
       </geometry>
     </collision>
   </link>
@@ -235,7 +236,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/upper_arm_link_2.STL" />
+          filename="package://robot_description/meshes/upper_arm_link_2.STL" />
       </geometry>
       <material
         name="">
@@ -249,7 +250,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/upper_arm_link_2.STL" />
+          filename="package://robot_description/meshes/upper_arm_link_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -266,10 +267,10 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-1.57"
+      upper="1.57"
+      effort="5.0"
+      velocity="1.0" />
   </joint>
   <link
     name="lower_arm_link_2">
@@ -293,7 +294,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/lower_arm_link_2.STL" />
+          filename="package://robot_description/meshes/lower_arm_link_2.STL" />
       </geometry>
       <material
         name="">
@@ -307,7 +308,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/lower_arm_link_2.STL" />
+          filename="package://robot_description/meshes/lower_arm_link_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -324,10 +325,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-1.57"
+      upper="1.57"
+      effort="5.0"
+      velocity="1.0" />
   </joint>
   <link
     name="upper_arm_link_3">
@@ -351,7 +352,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/upper_arm_link_3.STL" />
+          filename="package://robot_description/meshes/upper_arm_link_3.STL" />
       </geometry>
       <material
         name="">
@@ -365,7 +366,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/upper_arm_link_3.STL" />
+          filename="package://robot_description/meshes/upper_arm_link_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -382,10 +383,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-1.57"
+      upper="1.57"
+      effort="5.0"
+      velocity="1.0" />
   </joint>
   <link
     name="lower_arm_link_3">
@@ -409,7 +410,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/lower_arm_link_3.STL" />
+          filename="package://robot_description/meshes/lower_arm_link_3.STL" />
       </geometry>
       <material
         name="">
@@ -423,7 +424,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://delta_robot/meshes/lower_arm_link_3.STL" />
+          filename="package://robot_description/meshes/lower_arm_link_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -440,9 +441,9 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-1.57"
+      upper="1.57"
+      effort="5.0"
+      velocity="1.0" />
   </joint>
 </robot>

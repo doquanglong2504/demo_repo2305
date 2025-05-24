@@ -1,0 +1,49 @@
+[0.686s] Invoking command in '/home/long/delta_robot_prj/demo_repo2305/src/robot_description': PYTHONPATH=/home/long/delta_robot_prj/demo_repo2305/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/long/delta_robot_prj/demo_repo2305/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build install --record /home/long/delta_robot_prj/demo_repo2305/build/robot_description/install.log --single-version-externally-managed install_data
+[0.918s] running egg_info
+[0.918s] creating ../../build/robot_description/robot_description.egg-info
+[0.918s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[0.918s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[0.918s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[0.918s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[0.918s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[0.922s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.923s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.924s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[0.924s] running build
+[0.924s] running build_py
+[0.924s] creating /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build
+[0.924s] creating /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build/lib
+[0.924s] creating /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build/lib/robot_description
+[0.924s] copying robot_description/__init__.py -> /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build/lib/robot_description
+[0.924s] running install
+[0.925s] running install_lib
+[0.925s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/lib/python3.10/site-packages/robot_description
+[0.925s] copying /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build/lib/robot_description/__init__.py -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/lib/python3.10/site-packages/robot_description
+[0.926s] byte-compiling /home/long/delta_robot_prj/demo_repo2305/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc
+[0.926s] running install_data
+[0.926s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/ament_index
+[0.926s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/ament_index/resource_index
+[0.926s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/ament_index/resource_index/packages
+[0.926s] copying resource/robot_description -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/ament_index/resource_index/packages
+[0.926s] copying package.xml -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description
+[0.926s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/launch
+[0.926s] copying launch/display_robot.launch.py -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/launch
+[0.926s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/urdf
+[0.926s] copying urdf/delta_robot.csv -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/urdf
+[0.927s] copying urdf/delta_robot.urdf -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/urdf
+[0.927s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.927s] copying meshes/base_link.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.927s] copying meshes/lower_arm_link_1.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.928s] copying meshes/upper_arm_link_2.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.928s] copying meshes/upper_arm_link_3.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.928s] copying meshes/lower_arm_link_3.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.929s] copying meshes/end_effector.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.929s] copying meshes/lower_arm_link_2.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.930s] copying meshes/upper_arm_link_1.STL -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/meshes
+[0.930s] creating /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/rviz
+[0.930s] copying rviz/robot.rviz -> /home/long/delta_robot_prj/demo_repo2305/install/robot_description/share/robot_description/rviz
+[0.930s] running install_egg_info
+[0.932s] Copying ../../build/robot_description/robot_description.egg-info to /home/long/delta_robot_prj/demo_repo2305/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.949s] writing list of installed files to '/home/long/delta_robot_prj/demo_repo2305/build/robot_description/install.log'
+[0.983s] Invoked command in '/home/long/delta_robot_prj/demo_repo2305/src/robot_description' returned '0': PYTHONPATH=/home/long/delta_robot_prj/demo_repo2305/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/long/delta_robot_prj/demo_repo2305/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/long/delta_robot_prj/demo_repo2305/build/robot_description/build install --record /home/long/delta_robot_prj/demo_repo2305/build/robot_description/install.log --single-version-externally-managed install_data
